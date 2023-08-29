@@ -1,0 +1,255 @@
+
+/* google fonts link */
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap');
+
+/* root */
+:root{
+    --dark-color:#14151c;
+    --text-color: #ffffff;
+    --primary-color:#e0f013;
+    --border-color:#271922;
+    --paragraph-color:#c9ccd9;
+    --btn-color: #FF4F00;
+    --headinText-color:#2A1715;
+    --borderbottom-color:#DDDCDA;
+    --herotext-color:#201515;
+    --client-color:#B3B1AE;
+    --client-color:#F8F8F8;
+}
+body{
+  font-family: 'DM Sans', sans-serif;
+}
+.conainerHeading{
+  position: relative;
+  top: 0;
+}
+.headingText{
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--headinText-color);
+  color: var(--text-color);
+  cursor: pointer;
+  position: fixed;
+  width: 100%;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+.headingText:hover{
+  background: var(--btn-color);
+  transition: 0.3s;
+}
+.disc{
+    margin-top: 50px;
+}
+ul li a:hover{
+  color: #FF4F00;
+}
+.btnPrimary{
+ background: var(--btn-color);
+ border: 0;
+ color: white;
+ padding: 12px 20px;
+ font-weight: 500px;
+}
+.btnPrimary:hover{
+  background: var(--dark-color);
+  transition: 0.3s;
+}
+ul li a{
+  text-decoration: none;
+  padding: 10px ;
+  font-weight: 400;
+}
+.nav-linkEdit{
+  color: var(--dark-color);
+}
+.nbavbarBtm{
+  border-bottom: 1px solid var(--borderbottom-color);
+}
+
+/* hero section */
+.hero-sction{
+  margin: 25px auto;
+  max-width: 72%;
+}
+
+.hero-Text{
+  font-size: 64px;
+  font-weight: 700px;
+  text-align: center;
+  color: var(--herotext-color);
+  line-height: 1.1em;
+  margin-bottom: 25px;
+}
+.hero-firstContent{
+  line-height: 1.5em;
+  width: 100%;
+  max-width: 50%;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+.herobtn{
+  margin: 20px auto;
+}
+.herobottomContenet{
+  margin-bottom: 80px;
+}
+/* image */
+
+/* video section */
+.video-section{
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+}
+.video{
+  width: 100% ;
+  height: 600px;
+  max-height: 100%;
+}
+.bolder{
+  font-weight: 600;
+  font-size: 19px;
+  text-align: center;
+  color: var(--herotext-color);
+ 
+}
+
+/* client section */
+.client-headint{
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--client-color);
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+/* user section */
+.userSection{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 150px;
+}
+.left-content{
+  text-align: justify;
+}
+.user-descriptio{
+  max-width: 800px;
+  text-align: center;
+}
+/* support section */
+.user-support{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap:30px;
+  margin-top: 50px;
+}
+.box img{
+  columns: var(--btn-color);
+}
+.svgSupport{
+  color: var(--btn-color);
+  width: 20px; height: 25px;
+}
+/* chatboxt  */
+.chatbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  gap: 80px;
+  margin-top: 40px;
+}
+.chatbotBTN{
+  margin: left;
+
+}
+/* client section */
+.clientBox{
+ display: flex;
+ flex-direction: row;
+ margin: 30px auto;
+ gap: 20px;
+}
+.cltBox{
+  background: var(--client-color);
+  padding: 25px;
+}
+.clientname{
+  font-size: 20px;
+  margin: 0;
+  
+}
+.cmnsvg{
+  height: 40px;
+  width: 30px;
+  color: red;
+}
+.client-Title{
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 90px;
+  color: var(--herotext-color);
+}
+.cl-title{
+  font-size: 22px;
+  font-weight: 700;
+  margin: 15px auto;
+}
+.cmnhr{
+  margin: 40px auto;
+}
+/* progress section */
+
+.progress_Title{
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.progressBox{
+  background: var(--client-color);
+  max-width: 900px;
+  margin: auto;
+  padding: 36px;
+  margin-top: 20px;
+}
+
+/* FAQ */
+.fAQSection{
+  font-size: 36px;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  margin: 15px auto;
+}
+.faq{
+  max-width: 900px;
+  margin: auto;
+}
+.accordion-header{
+    -webkit-user-select: none;
+    align-content: center;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 24px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: visible;
+    padding: 20px 20px 20px 24px;
+    position: relative;
+    user-select: none;
+    width: 100%;
+
+}
+
