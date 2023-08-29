@@ -16,7 +16,8 @@
     --herotext-color:#201515;
     --client-color:#B3B1AE;
     --client-color:#F8F8F8;
-    --hoverbg:#C1C1C1;
+    --hoverbg:#C1C1C1; 
+    --slideText-color:#95928E;
 }
 body{
   font-family: 'DM Sans', sans-serif;
@@ -60,6 +61,10 @@ ul li a:hover{
   background: var(--dark-color);
   transition: 0.3s;
 }
+.saveBTn:hover{
+  background-color: var(--dark-color);
+  transition: 0.3s;
+}
 ul li a{
   text-decoration: none;
   padding: 10px ;
@@ -71,7 +76,13 @@ ul li a{
 .nbavbarBtm{
   border-bottom: 1px solid var(--borderbottom-color);
 }
-
+.designText{
+  color: var(--btn-color);
+}
+.svgimg{
+  height: 80px;
+  width: 100px;
+}
 /* hero section */
 .hero-sction{
   margin: 25px auto;
@@ -87,6 +98,7 @@ ul li a{
   margin-bottom: 25px;
 }
 .hero-firstContent{
+  font-size: 18px;
   line-height: 1.5em;
   width: 100%;
   max-width: 50%;
@@ -106,7 +118,6 @@ ul li a{
 /* video section */
 .video-section{
   max-width: 1100px;
-  position: relative;
   margin: auto;
 }
 .video{
@@ -126,7 +137,7 @@ ul li a{
 .client-headint{
   font-weight: 400;
   font-size: 20px;
-  color: var(--client-color);
+  color: var(--slideText-color);
   text-align: center;
   margin-top: 40px;
   margin-bottom: 20px;
@@ -137,6 +148,18 @@ ul li a{
   justify-content: space-between;
   gap: 20px;
   padding-top: 150px;
+}
+.user-title{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+.use{
+  color: var(--btn-color);
+}
+.user-descriptio{
+  font-size: 16px;
+  font-weight: 400;
 }
 .left-content{
   text-align: justify;
@@ -151,6 +174,14 @@ ul li a{
   grid-template-columns: auto auto auto;
   gap:30px;
   margin-top: 50px;
+}
+.color-red{
+  color: red;
+}
+.support-title{
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.4em;
 }
 .box img{
   columns: var(--btn-color);
@@ -168,9 +199,23 @@ ul li a{
   gap: 80px;
   margin-top: 40px;
 }
+.chatbox > div {
+    width: 50%;
+}
+.rightBox img{
+  max-width: 100%;
+}
 .chatbotBTN{
   margin: left;
+}
+.leftBoxTitle{
+  font-size: 30px;
+  font-weight: 700;
 
+}
+.chatBoxMiddleDes .chatBoxBottonDes{
+  font-size: 16px;
+  font-weight: 400;
 }
 /* client section */
 .clientBox{
@@ -221,7 +266,9 @@ ul li a{
   padding: 36px;
   margin-top: 20px;
 }
-
+.number{
+  color: var(--btn-color);
+}
 /* FAQ */
 .fAQSection{
   font-size: 36px;
@@ -235,7 +282,6 @@ ul li a{
   margin: auto;
 }
 .accordion-header{
-    -webkit-user-select: none;
     align-content: center;
     align-items: center;
     cursor: pointer;
@@ -248,8 +294,6 @@ ul li a{
     justify-content: flex-start;
     overflow: visible;
     padding: 20px 20px 20px 24px;
-    position: relative;
-    user-select: none;
     width: 100%;
 }
 /* calandy section */
@@ -336,4 +380,7 @@ li{
   font-size: 44px;
   font-weight: 600;
 
+}
+.footer-bottom{
+  border-top: 1px solid var(--hoverbg);
 }
