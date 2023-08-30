@@ -11,11 +11,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- fabicon -->
     <link rel="shortcut icon" href="./images/sunder-muthukumaran-NeDudmvV64A-unsplash.jpg" type="image/x-icon">
-    <!-- external css add -->
-    <link rel="stylesheet" href="./style.css/stye.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <!-- animation -->
+    <link rel="stylesheet" href="./style.css/fade.css">
+    <!-- external css add -->
+    <link rel="stylesheet" href="./style.css/stye.css">
+    <!-- Responsive -->
+    <link rel="stylesheet" href="./style.css/responsive.css">
     <title>Midterm Exam - Assignment 1 </title>
   </head>
   <body>
@@ -24,9 +30,7 @@
                 
             <!-- nav section start -->
             <div class="Container">
-              
-              <nav class="nbavbarBtm navbar navbar-expand-lg navbar-light py-4">
-               
+              <nav class="nbavbarBtm navbar navbar-expand-lg navbar-light py-4">  
                   <div class="conainerHeading">
                     <p class="headingText">Accepting 4 New clients. Get Started <svg xmlns="http://www.w3.org/2000/svg" width="35" height="25" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                       <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
@@ -58,9 +62,11 @@
                         <a class="nav-linkEdit" href="#">FAQ</a>
                       </li>
                     </ul>
-                      
+                    <button class="btnPrimary d-flex d-md-block justify-content-center mx-auto align-items-center  flex-end rounded-pill d-block d-sm-block d-md-none d-lg-none d-xl-none">
+                      Schedule a Call
+                    </button>
                   </div>
-                  <button class="btnPrimary d-flex justify-content-center align-items-center rounded-pill">
+                  <button class="btnPrimary d-flex d-md-block justify-content-center align-items-center  flex-end rounded-pill d-none d-sm-none d-md-block d-lg-block d-xl-block">
                     Schedule a Call
                   </button>
                 </div>
@@ -69,17 +75,18 @@
             <!-- nav section END -->
           </header>
       <!-- header section end -->
-      <main>
+      <main class="main">
             <!-- Hero section start -->
+            
               <div class="hero-sction Max-height 100% text-center px-4 flex ">
-                    <h2 class="hero-Text">Save time & work smarter with AI Automation</h2>
+                    <h2 class="hero-Text u--fadeInUp">Save time & work smarter with AI Automation</h2>
                     <div class="content">
-                      <p class="hero-firstContent">We help you automate your workflows, automate repetitive tasks, and elevate your business.</p>
+                      <p class="hero-firstContent u--fadeInUp">We help you automate your workflows, automate repetitive tasks, and elevate your business.</p>
                     </div>
-                    <button class="herobtn btnPrimary d-flex justify-content-center align-items-center rounded-pill center">
+                    <button class="herobtn btnPrimary d-flex justify-content-center align-items-center rounded-pill center u--fadeInUp">
                       Book your free audit Call
                     </button>
-                    <p class="herobottomContenet"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                    <p class="herobottomContenet u--fadeInUp"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
                       <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
                       <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
                     </svg>&nbsp; No-pressure 30 minute discovery call</p>
@@ -88,15 +95,15 @@
                     <!-- video section start -->
                       <div class="videoSectionContainer">
                         <div class="video-section aspect-ratio: 16/9;">
-                          <p class="bolder">Watch this video to see how we do it 👇</p>
-                          <div class="videoBackground">
+                          <p class="bolder u--fadeInUp">Watch this video to see how we do it 👇</p>
+                          <div class="videoBackground u--fadeInUp">
                                 <iframe class="video" src="https://www.youtube.com/embed/smPos0mJvh8?iv_load_policy=3&amp;rel=0&amp;modestbranding=1&amp;playsinline=1&amp;autoplay=1&amp;color=white" frameborder="0" allow="presentation; fullscreen; accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ></iframe>
                           </div>
                         </div> 
                       </div>
                     <!-- video section end -->
                       <!-- client section start -->
-                      <div class="client-section">
+                      <div class="client-section u--fadeInUp">
                         <p class="client-headint">Trusted by 40+ worldwide clients</p>
                         <div class="flex gap-3 marque">
                           <marquee behavior="scroll" direction="left">
@@ -108,6 +115,7 @@
                           <img src="./images/Client Icon/download (1).png" alt="client">
                           <img src="./images/Client Icon/download (2).png" alt="client">
                           <img src="./images/Client Icon/download.png" alt="client">
+                          <use href="#svg-539667301_5956"></use>
                           </marquee>
                           
                         </div>
@@ -115,18 +123,18 @@
                       <!-- client section end -->
 
                       <!-- user section start -->
-                      <div class="userSection px-5">
-                          <div class="left-content">
-                              <h2 class="user-title text-center">You can’t beat AI... So why not <span class="use">use</span> it?</h2>
-                              <p class="user-descriptio py-2">
+                      <div class="userSection px-5 u--fadeInUp">
+                          <div class="left-content u--fadeInUp">
+                              <h2 class="user-title text-center u--fadeInUp">You can’t beat AI... So why not <span class="use">use</span> it?</h2>
+                              <p class="user-descriptio py-2 u--fadeInUp">
                                 With the public launch of OpenAI's ChatGPT and the GPT-4 LLM, people are starting to see the true power of AI. We help you utilize that power into your business.
                               </p>
                           </div>
-                          <div class="right-contetn text-center">
-                            <button class="btnPrimary d-flex justify-content-center align-items-center rounded-pill mx-auto">
+                          <div class="right-contetn text-center u--fadeInUp">
+                            <button class="btnPrimary d-flex justify-content-center align-items-center rounded-pill mx-auto u--fadeInUp">
                               Join the AI revulation
                             </button>
-                            <p class="text-center py-2">
+                            <p class="text-center py-2 u--fadeInUp">
                               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
                                 <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
                                 <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
@@ -136,12 +144,12 @@
                       <hr />
                       <!-- user section end -->
                       <!-- user support section start -->
-                      <section class="user-support px-5">
+                      <section class="user-support px-5 u--fadeInUp">
                             <div class="box">
                               <svg xmlns="http://www.w3.org/2000/svg" width="35" height="45" font-weight="bold" fill="currentColor" class="bi bi-check-lg color-red" viewBox="0 0 16 16">
                                 <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
                               </svg>
-                              <h4 class="support-title py-2">Stop wasting hundreds of work hours on repetitive tasks</h4>
+                              <h4 class="support-title py-2 ">Stop wasting hundreds of work hours on repetitive tasks</h4>
                               <p class="support-description">
                                 Using powerful workflow automations we are able to help you automate annoying and time-heavy tasks.
                               </p>
@@ -167,7 +175,7 @@
                       </section>
                       <!-- user support section end -->
                       <!-- custoer support chatbox start  -->
-                        <div class="chatbBoxtSection">
+                        <div class="chatbBoxtSection u--fadeInUp">
                           <!-- 1 -->
                           <div class="chatbox px-5 sm:flex-cols-1 py-5">
                             <div class="rightBox">
@@ -183,7 +191,7 @@
                             </div>
                         </div>
                         <!-- 2 -->
-                          <div class="chatbox px-5 sm:flex-cols-1 py-5">
+                          <div class="chatbox px-5 sm:flex-cols-1 py-5 u--fadeInUp">
                             <div class="rightBox">
                                 <img src="./images/Client Icon/check2.svg" alt="chatbox">
                             </div>
@@ -197,7 +205,7 @@
                             </div>
                         </div>
                         <!-- 3 -->
-                          <div class="chatbox px-5 sm:flex-cols-1 py-5">
+                          <div class="chatbox px-5 sm:flex-cols-1 py-5 u--fadeInUp">
                             <div class="rightBox">
                                 <img src="./images/Client Icon/check3.svg" alt="chatbox">
                             </div>
@@ -213,8 +221,8 @@
                       <!-- custoer support chatbox end -->
                       <!-- client section start -->
                         <section class="client-Section mx-auto">
-                            <h2 class="client-Title text-center ">Hear from our clients</h2>
-                            <div class="clientBox px-5">
+                            <h2 class="client-Title text-center u--fadeInUp">Hear from our clients</h2>
+                            <div class="clientBox px-5 u--fadeInUp">
                                <div class="cltBox">
                                 <div class="cmnSVG">
                                   <svg class="cmnsvg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
@@ -332,13 +340,14 @@
                             </div>
                         </section>
                       <!-- client section end -->
+
                       <!-- progress section start -->
                       <section class="py-5 px-5 mx-auto">
                           <div class="progress-section">
-                            <h1 class="text-center mx-auto progress_Title">Our process</h1>
+                            <h1 class="text-center mx-auto progress_Title u--fadeInUp">Our process</h1>
                           </div>
                           <!-- start -->
-                          <div class="progressBox ">
+                          <div class="progressBox u--fadeInUp">
                             <div class="box">
                               <h3 class="number">01</h3>
                               <h3 class="progressTitle">Book your free discovery call</h3>
@@ -350,7 +359,7 @@
                           </div>
                           <!-- end -->
                           <!-- start -->
-                          <div class="progressBox ">
+                          <div class="progressBox u--fadeInUp">
                             <div class="box">
                               <h3 class="number">02</h3>
                               <h3 class="progressTitle">Planning & strategy session</h3>
@@ -359,7 +368,7 @@
                           </div>
                           <!-- end -->
                           <!-- start -->
-                          <div class="progressBox ">
+                          <div class="progressBox u--fadeInUp">
                             <div class="box">
                               <h3 class="number">03</h3>
                               <h3 class="progressTitle">Development</h3>
@@ -368,7 +377,7 @@
                           </div>
                           <!-- end -->
                           <!-- start -->
-                          <div class="progressBox ">
+                          <div class="progressBox u--fadeInUp">
                             <div class="box">
                               <h3 class="number">04</h3>
                               <h3 class="progressTitle">Deployment + optimization</h3>
@@ -387,23 +396,23 @@
                       <!-- FAQ Start -->
                       <section class="faq">
                             <div class="py-5 mx-auto">
-                              <h5 class="mx-auto py-4">Frequently asked questions</h5>
+                              <h5 class="mx-auto py-4 u--fadeInUp">Frequently asked questions</h5>
                               <div class="accordion accordion-flush" id="accordionFlushExample">
                                 <div class="accordion-item">
                                   <h2 class="accordion-header" id="flush-headingOne">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                      <h5 class="cmnfaqHeading">How Can I tell if using AI is the right solution for my problem?</h5>
+                                      <h5 class="cmnfaqHeading u--fadeInUp">How Can I tell if using AI is the right solution for my problem?</h5>
                                     </button>
                                   </h2>
                                   <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">
+                                    <div class="accordion-body u--fadeInUp">
                                       <p>Figuring out which process to enhance using AI can be tricky for business people. If you have a business problem where you feel that the solution might be hidden in data and can't be solved with simple rules, AI could be the answer.
                                       </p>
                                       <p>To define an AI use case, you'll need the help of an AI team, the person who knows the most about the issue (the problem owner), and technical specialists who understand how to deal with the problem in the technical world.</p>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="accordion-item">
+                                <div class="accordion-item u--fadeInUp">
                                   <h2 class="accordion-header" id="flush-headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                       <h5 class="cmnfaqHeading"> How long does an AI solution take to implement?</h5>
@@ -417,14 +426,14 @@
                                     </div>
                                   </div>
                                 </div>
-                                <div class="accordion-item">
+                                <div class="accordion-item u--fadeInUp">
                                   <h2 class="accordion-header" id="flush-headingThree">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                                       <h5 class="cmnfaqHeading">Will we need to make changes in our teams?</h5>
                                       
                                     </button>
                                   </h2>
-                                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                  <div id="flush-collapseThree" class="accordion-collapse collapse u--fadeInUp" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">
                                       <p>No, you don't have to fire employees. AI and automation are only there to help humans to be able to focus on the most important tasks by automating time-consuming and repetitive tasks. In the long run, process automation will make your teams happier and improves their performance.
                                       </p>
@@ -440,7 +449,7 @@
                       <!-- FAQ end -->
                       <!-- calandy section start -->
                       <section>
-                        <div class="calandy px-4">
+                        <div class="calandy px-4 u--fadeInUp">
                           <!--  -->
                             <div class="optionLeft">
                                 <div class="pricingReview">
@@ -475,7 +484,8 @@
                                 </div>
                             </div>
                             <!-- end -->
-                            <div class="contentOption">
+                   
+                            <div  class="contentOption">
                                 <h2 class="calandyTitle">Book your free audit call</h2>
                                 <!-- another function -->
                                 <div class="imgText">
@@ -523,9 +533,7 @@
                   <div class="footer-bottom">
                     <div class="container">
                       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
-
                           <h1 class="text-left">Wize</h1>
-
                         <p class="col-md-6 mb-0 text-muted text-center">&copy; Copyright © 2023 Wize Design. All rights reserved.</p>
                         <ul class="nav col-md-4 justify-content-end">
                           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
@@ -543,5 +551,7 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- animation -->
+    <script src="./style.css/animation.js"></script>
   </body>
 </html>

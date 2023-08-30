@@ -1,0 +1,120 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 1200px) {
+    .headwrapper{
+       
+    }
+}
+@media only screen and (max-width: 1048px){
+    .header{
+       padding: 0 30px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .header{
+       padding: 0 25px;
+    }
+}
+@media only screen and (max-width: 768px) {
+        .hero-Text{
+            font-size: 44px;
+        }
+        .userSection{
+            flex-direction: column;
+            text-align: center;
+            margin: auto;
+        }
+        .user-title{
+            text-align: center;
+        }
+        .saveTime{
+            flex-direction: column;
+           
+        }
+}
+
+@media only screen and (max-width: 600px) {
+    .clientBox, .calandy, .saveTime, .chatbox{
+        flex-direction: column;
+
+    }
+    .saveTime{
+        text-align: center;
+    }
+    .user-support{
+        grid-template-columns: auto;
+    }
+    .main{
+        text-align: center;
+        margin: auto;
+        padding: 10px 5px;
+    }
+    .cltBox{
+        padding: 10px 15px;
+    }
+    .chatbotBTN{
+        text-align: center;
+        margin: 10px auto;
+        font-size: 12px;
+    }
+    .calandy > div{
+        width: 100%;
+    }
+    .saveTime > div{
+        width: 100%;
+    }
+    .chatbox > div {
+        width: 100%;
+    }
+    .saveTime{
+     gap: 20px;
+     padding: 10px 0px;
+    }
+    .saveBTn{
+        padding: 30px 50px;
+        font-size: 15px;
+        margin: auto;
+    }
+    .container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .text-left{
+        text-align: center;
+        margin: auto;
+    }
+    .saveTitele{
+        padding-top: 20px;
+        font-size: 22px;
+        text-align: center;
+    }
+    .hero-firstContent{
+        max-width: 100%;
+    }
+    .hero-Tex{
+        padding: 10px 5px;
+        margin: 10px auto;
+    }
+    .hero-sction{
+        max-width: 100%;
+    }
+    .btnPrimary{
+        display: none;
+    }
+    .videoSectionContainer{
+        padding: 5px 5px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 600px) {...} */
